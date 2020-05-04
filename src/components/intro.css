@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab&display=swap');
+
+.h1text{
+    margin-top: 50px;
+    color:orangered;
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4%;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skills{
+    line-height: 2em;
+    text-align: center;
+    /* font-family: ''; */
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    color: purple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 3px; */
+    /* padding-bottom: 6%; */
+}
