@@ -6,7 +6,7 @@ import "../components/style.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "avatar.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "Hamed_photo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid
@@ -16,7 +16,12 @@ const Image = () => {
     }
   `)
 
-  return <Img className="icon-image" fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      className="icon-image"
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default Image

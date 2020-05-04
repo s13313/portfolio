@@ -9,12 +9,13 @@ const intro = () => {
         <br />
       </h1> */}
       <p className="skills">
-        I’m Jonathan,
-        <br /> I’m a Passionate Front-end Dev, <br />
-        UI/UX Enthusiast, Frameworks Lover <br /> and Web Developer.
+        I’m Hamed,
+        <br /> I’m a Passionate Full-Stack Developer, <br />
+        I love riddles and blues <br />
+        I live to code <br /> and I code to live.
+        <br /> Hire Me!
       </p>
     </div>
   )
 }
-
 export default intro

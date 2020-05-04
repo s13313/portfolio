@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -21,11 +22,11 @@ body {
   display: block;
   border-radius: 50%;
   max-width: 100%;
-  margin-top: 25px;
+  margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
 }
-.navbar-image{
+.navbar-image {
   border-radius: 50%;
 }
 body > * {
@@ -58,7 +59,7 @@ Navbar.Brand {
   position: fixed;
   left: 0;
   bottom: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* top: 0; */
   width: 100%;
   background-color: #222831;
@@ -67,7 +68,7 @@ Navbar.Brand {
   text-align: center;
 }
 .footer p {
-  margin: 10px;
+  margin: 20px;
 }
 .firsthr {
   margin-top: 0;

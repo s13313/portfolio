@@ -1,12 +1,14 @@
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
-import { Nav, NavDropdown ,Form ,Button,FormControl } from "react-bootstrap"
+import { Nav, NavDropdown, Form, Button, FormControl } from "react-bootstrap"
 import "../components/style.css"
 const appbar = () => {
   return (
     <div className="appbar">
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand className="mr-sm-3" href="/">🌓</Navbar.Brand>
+        <Navbar.Brand className="mr-sm-3" href="/">
+          🌓
+        </Navbar.Brand>
         {/* <Navbar.Brand href="">
           <img
           className="navbar-image"
@@ -32,15 +34,19 @@ const appbar = () => {
       </NavDropdown> */}
           </Nav>
           <Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-0" />
-            {/* <Button variant="outline-success">Search</Button> */}
-          </Form>
+            <Form inline>
+              <FormControl
+                type="text"
+                placeholder="Search"
+                className="mr-sm-0"
+              />
+              {/* <Button variant="outline-success">Search</Button> */}
+            </Form>
             <Nav.Link href="./projects" bg="danger" variant="danger">
               Projects
             </Nav.Link>
             <Nav.Link
-              href="https://www.instagram.com/sumanth.zero7/"
+              href="https://www.instagram.com/hamed.jenabi"
               bg="danger"
               variant="danger"
             >
@@ -49,11 +55,10 @@ const appbar = () => {
             <Nav.Link href="/" bg="danger" variant="danger">
               About
             </Nav.Link>
-            <Nav.Link href="https://www.instagram.com/sumanth.zero7/">
+            <Nav.Link href="https://www.instagram.com/hamed.jenabi">
               Contact
             </Nav.Link>
           </Nav>
-          
         </Navbar.Collapse>
       </Navbar>
     </div>
